@@ -1,0 +1,680 @@
+body {
+  background-color: #93D9A3;
+  opacity: 0.95;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'Yatra One', cursive;
+  font-size: 35px;
+}
+
+h4, h5 {
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a:visited {
+  text-decoration: none;
+  text-align: center;
+}
+
+button {
+  font-family: 'Londrina Solid', cursive;
+  border-radius: 8%;
+}
+
+input {
+  border-radius: 5%;
+  border: solid 1px;
+}
+
+.button {
+  font-family: 'Londrina Solid', cursive;
+  border-radius: 8%;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.contact-me-form {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.contact-me-h1 {
+  font-size: 60px;
+  text-decoration: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+
+.contact-me-h3 {
+  margin-top: 10px;
+}
+
+.contact-me-form-padding {
+  padding: 3px;
+}
+
+.Back-to-home-page-button-link {
+  text-decoration: none;
+  color: #3A6351;
+  background-color: #71C788;
+  font-size: 20px;
+  font-family: 'Londrina Solid', cursive;
+  border-radius: 8%;
+}
+
+.Back-to-home-page-button-link:hover {
+  text-decoration: none;
+  color: #558776;
+  background-color: #B3E283;
+  transition-duration: 0.3s
+}
+
+.Back-to-home-page-button {
+  color: #3A6351;
+  background-color: #71C788;
+  font-size: 20px;
+  font-family: 'Londrina Solid', cursive;
+  border-radius: 8%;
+}
+
+.Back-to-home-page-button:hover {
+  color: #558776;
+  background-color: #B3E283;
+  transition-duration: 0.3s
+}
+
+.Back-to-home-page-button:active {
+  text-decoration: bold
+}
+
+.sign-up-button-link {
+  padding: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+  color: #3A6351;
+  background-color: #93D9A3;
+  font-size: 20px;
+}
+
+.sign-up-button-link:hover {
+  text-decoration: none;
+  color: #558776;
+  background-color: #B3E283;
+  transition-duration: 0.3s
+}
+
+.sign-up-button-link:visited {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  text-decoration: bold;
+  padding-left: 320px;
+  padding-right: 320px;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.navbar {
+  background-color: #57837B;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.nav-item {
+  padding: 0 13px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.navbar a:hover {
+  background: #56776C;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.Testimonial-1 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.img-centred {
+  text-align: center;
+}
+
+.img-border {
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .img-border {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.buy-now-button {
+  font-size: 30px;
+}
+
+.buy-now-link {
+  text-decoration: none;
+  text-decoration: bold;
+  color: #93D9A3;
+}
+
+.buy-now-link:hover {
+  color: #03506f;
+  font-size: 42px;
+  transition-duration: 0.5s;
+}
+
+.submit-button {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: none;
+  color: #3A6351;
+  background-color: #71C788;
+  font-size: 20px;
+}
+
+.submit-button:hover {
+  text-decoration: none;
+  color: #558776;
+  background-color: #B3E283;
+  transition-duration: 0.3s
+}
+
+.submit-button:visited {
+  text-decoration: none;
+}
+
+.submit-button-button {
+  padding: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+  border: none;
+  color: #3A6351;
+  background-color: #71C788;
+  font-size: 20px;
+}
+
+.submit-button-button:hover {
+  text-decoration: none;
+  color: #558776;
+  background-color: #B3E283;
+  transition-duration: 0.3s
+}
+
+.submit-button-button:visited {
+  text-decoration: none;
+}
+
+.browse-gallery-button {
+  font-size: 30px;
+}
+
+.browse-gallery-link {
+  text-decoration: none;
+  text-decoration: bold;
+  color: #11698e;
+}
+
+.browse-gallery-link:hover {
+  color: #0d335d;
+  font-size: 40px;
+  transition-duration: 0.5s;
+}
+
+.title-image {
+  position: relative;
+  left: 350px;
+}
+
+.pricing-text {
+  text-align: center;
+  line-height: 1.20;
+  font-size: 20px;
+}
+
+.press-pictures {
+  width: 500px;
+  height: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .press-pictures {
+    width: 350px;
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .press-pictures {
+    width: 230px;
+    height: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+.Sign-up-button {
+  margin: 0;
+  padding: 2px;
+  padding-left: 0;
+  padding-right: 0;
+  color: #3A6351;
+  background-color: #93D9A3;
+  font-size: 20px;
+}
+
+.Sign-up-button:hover {
+  color: #558776;
+  background-color: #B3E283;
+  transition-duration: 0.3s
+}
+
+.Sign-up-button:active {
+  text-decoration: bold
+}
+
+.footer-motivation-text {
+  font-family: 'Train One', cursive;
+  text-decoration: bold;
+  font-size: 2rem;
+}
+
+.nav-text {
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 125%;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.feature-box-title {
+  font-size: 26px;
+}
+
+.feature-box-text {
+  font-size: 18px;
+}
+
+.feature-box-icon {
+  color: #3A6351;
+}
+
+.feature-box-icon:hover {
+  color: #558776;
+  transition-duration: 0.3s;
+}
+
+.img-border {
+  border: solid 7px;
+  border-color: #75CFB8;
+}
+
+.carousel-indicator-button {
+  color: #000000;
+}
+
+.pricing-div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel-item {
+  padding: 3% 15%
+}
+
+.pricing-icon {
+  color: #3A6351;
+}
+
+.pricing-icon:hover {
+  color: #558776;
+  transition-duration: 0.3s;
+}
+
+.pricing-cards {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.pricing-card {
+  padding: 20px 15px;
+}
+
+.features-row {
+  padding-top: 100px;
+  padding-bottom: 55px;
+}
+
+.testimonial-div {
+  padding: 100px 300px 55px 300px;
+}
+
+@media (max-width: 1000px) {
+  .testimonial-div {
+    padding: 100px 20px 55px 20px;
+  }
+}
+
+.pricing-card-body {
+  background-color: #C9D8B6;
+  border: solid 13px;
+  border-style: double;
+  border-color: #6E7C7C;
+}
+
+.pricing-card-body-1 {
+  padding-bottom: 25px;
+}
+
+.contact-me-content {
+  padding-left: 150px;
+}
+
+@media (max-width: 1000px) {
+  .contact-me-content {
+    padding-left: 50px;
+    padding-top: 0;
+  }
+}
+
+.footer-icon {
+  padding: 5px 13px;
+}
+
+.footer-icon:hover {
+  color: #687980;
+  transition-duration: 0.2s;
+}
+
+.footer-icon-link {
+  color: black;
+}
+
+.footer-icon-link:visited {
+  color: black;
+}
+
+.footer-icons {
+  margin-bottom: 1px;
+}
+
+.rules {
+  text-align: left;
+  padding-left: 90px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+
+.origin-ul {
+  text-align: left;
+  padding-left: 70px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-decoration: bold;
+}
+
+.about-touch-image {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 1307px;
+  border-radius: 0;
+  opacity: 60%;
+}
+
+@media (max-width: 1350px) {
+  .about-touch-image {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 1307px;
+    border-radius: 0;
+    opacity: 0%;
+  }
+}
+
+.touch-skills-card {
+  margin-left: 80px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  width: 20rem;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .touch-skills-card {
+    position: relative;
+    right: 40px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1150px) {
+  .touch-skills-card {
+    position: relative;
+    right: 80px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .touch-skills-card {
+    position: relative;
+    left: 231px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 870px) {
+  .touch-skills-card {
+    position: relative;
+    left: 140px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .touch-skills-card {
+    position: relative;
+    left: 100px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .touch-skills-card {
+    position: relative;
+    left: 30px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .touch-skills-card {
+    position: relative;
+    left: 10px;
+    margin-left: 80px;
+    margin-right: 70px;
+    width: 20rem;
+    justify-content: center;
+  }
+}
+
+.touch-skills-video {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.touch-football-skills-title {
+  text-align: center;
+}
+
+.card-text-2 {
+  padding-bottom: 30px;
+}
+
+.warm-up-card {
+  background-color: #BCFFB9;
+}
+
+.activities-footer {
+  text-align: center;
+}
+
+#title-title {
+  font-size: 80px;
+}
+
+#at-title-title {
+  font-size: 80px;
+}
+
+#w-title-title {
+  font-size: 80px;
+}
+
+#rules {
+  text-align: center;
+  background-color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+#touch-skills {
+  background-color: #fff;
+}
+
+#workouts {
+  background-color: #fff;
+}
+
+#press {
+  text-align: center;
+  background-color: #fff;
+}
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  padding: 0 15%
+}
+
+#pricing {
+  text-align: center;
+}
+
+#cta {
+  text-align: center;
+  background-color: #fff;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+}
